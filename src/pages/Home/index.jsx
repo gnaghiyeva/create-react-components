@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Header'
+import Slider from '../../components/Slider'
 
 
 const Home = () => {
@@ -7,6 +8,10 @@ const Home = () => {
     <>
     <Navbar/>
      <div>Home Page</div>
+     
+    <Slider/> 
+    <div>Slider</div>
+     
     </>
    
   )
